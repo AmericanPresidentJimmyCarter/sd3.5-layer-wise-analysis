@@ -1,0 +1,1080 @@
+{
+    "algo": "lokr",
+    "multiplier": 1.0,
+    "linear_dim": 1000000,
+    "linear_alpha": 1,
+    "factor": 1,
+    "full_matrix": true,
+    "apply_preset": {
+        "target_module": [
+            "JointTransformerBlock"
+        ],
+        "name_algo_map": {
+            "transformer_blocks.0.norm1*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.0.norm1_context*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.0.ff*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.0.*": {
+                "algo": "lokr",
+                "factor": 2,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.1.norm1*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.1.norm1_context*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.1.ff*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.1.*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.2.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.2.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.2.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.2.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.3.norm1*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.3.norm1_context*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.3.ff*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.3.*": {
+                "algo": "lokr",
+                "factor": 22,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.4.norm1*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.4.norm1_context*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.4.ff*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.4.*": {
+                "algo": "lokr",
+                "factor": 18,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.5.norm1*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.5.norm1_context*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.5.ff*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.5.*": {
+                "algo": "lokr",
+                "factor": 20,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.6.norm1*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.6.norm1_context*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.6.ff*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.6.*": {
+                "algo": "lokr",
+                "factor": 20,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.7.norm1*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.7.norm1_context*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.7.ff*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.7.*": {
+                "algo": "lokr",
+                "factor": 22,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.8.norm1*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.8.norm1_context*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.8.ff*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.8.*": {
+                "algo": "lokr",
+                "factor": 24,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.9.norm1*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.9.norm1_context*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.9.ff*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.9.*": {
+                "algo": "lokr",
+                "factor": 22,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.10.norm1*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.10.norm1_context*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.10.ff*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.10.*": {
+                "algo": "lokr",
+                "factor": 22,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.11.norm1*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.11.norm1_context*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.11.ff*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.11.*": {
+                "algo": "lokr",
+                "factor": 22,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.12.norm1*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.12.norm1_context*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.12.ff*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.12.*": {
+                "algo": "lokr",
+                "factor": 22,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.13.norm1*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.13.norm1_context*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.13.ff*": {
+                "algo": "lokr",
+                "factor": 11,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.13.*": {
+                "algo": "lokr",
+                "factor": 22,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.14.norm1*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.14.norm1_context*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.14.ff*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.14.*": {
+                "algo": "lokr",
+                "factor": 20,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.15.norm1*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.15.norm1_context*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.15.ff*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.15.*": {
+                "algo": "lokr",
+                "factor": 18,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.16.norm1*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.16.norm1_context*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.16.ff*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.16.*": {
+                "algo": "lokr",
+                "factor": 20,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.17.norm1*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.17.norm1_context*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.17.ff*": {
+                "algo": "lokr",
+                "factor": 9,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.17.*": {
+                "algo": "lokr",
+                "factor": 18,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.18.norm1*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.18.norm1_context*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.18.ff*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.18.*": {
+                "algo": "lokr",
+                "factor": 16,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.19.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.19.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.19.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.19.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.20.norm1*": {
+                "algo": "lokr",
+                "factor": 7,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.20.norm1_context*": {
+                "algo": "lokr",
+                "factor": 7,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.20.ff*": {
+                "algo": "lokr",
+                "factor": 7,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.20.*": {
+                "algo": "lokr",
+                "factor": 14,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.21.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.21.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.21.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.21.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.22.norm1*": {
+                "algo": "lokr",
+                "factor": 7,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.22.norm1_context*": {
+                "algo": "lokr",
+                "factor": 7,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.22.ff*": {
+                "algo": "lokr",
+                "factor": 7,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.22.*": {
+                "algo": "lokr",
+                "factor": 14,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.23.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.23.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.23.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.23.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.24.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.24.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.24.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.24.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.25.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.25.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.25.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.25.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.26.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.26.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.26.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.26.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.27.norm1*": {
+                "algo": "lokr",
+                "factor": 5,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.27.norm1_context*": {
+                "algo": "lokr",
+                "factor": 5,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.27.ff*": {
+                "algo": "lokr",
+                "factor": 5,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.27.*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.28.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.28.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.28.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.28.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.29.norm1*": {
+                "algo": "lokr",
+                "factor": 5,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.29.norm1_context*": {
+                "algo": "lokr",
+                "factor": 5,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.29.ff*": {
+                "algo": "lokr",
+                "factor": 5,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.29.*": {
+                "algo": "lokr",
+                "factor": 10,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.30.norm1*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.30.norm1_context*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.30.ff*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.30.*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.31.norm1*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.31.norm1_context*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.31.ff*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.31.*": {
+                "algo": "lokr",
+                "factor": 2,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.32.norm1*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.32.norm1_context*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.32.ff*": {
+                "algo": "lokr",
+                "factor": 6,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.32.*": {
+                "algo": "lokr",
+                "factor": 12,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.33.norm1*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.33.norm1_context*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.33.ff*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.33.*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.34.norm1*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.34.norm1_context*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.34.ff*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.34.*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.35.norm1*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.35.norm1_context*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.35.ff*": {
+                "algo": "lokr",
+                "factor": 1,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.35.*": {
+                "algo": "lokr",
+                "factor": 2,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.36.norm1*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.36.norm1_context*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.36.ff*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.36.*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.37.norm1*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.37.norm1_context*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.37.ff*": {
+                "algo": "lokr",
+                "factor": 4,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            },
+            "transformer_blocks.37.*": {
+                "algo": "lokr",
+                "factor": 8,
+                "linear_dim": 1000000,
+                "linear_alpha": 1,
+                "full_matrix": true
+            }
+        },
+        "use_fnmatch": true
+    }
+}
