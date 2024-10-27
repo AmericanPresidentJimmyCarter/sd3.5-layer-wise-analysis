@@ -3,8 +3,7 @@
 
 ## Table of Contents
 
-1. [Layers as Taskwise Mostly Uninterpretable Matrices of Numbers](#layers-as-taskwise-mostly-uninterpretable-matrices-of-numbers)
-   - [Introduction](#introduction)
+1. [Introduction](#introduction)
 2. [Experiment](#experiment)
 3. [Results](#results)
    - [There are a number of critical layers](#there-are-a-number-of-critical-layers)
